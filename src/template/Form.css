@@ -1,0 +1,112 @@
+.form{
+  padding: 16px;
+  background-color: #f1f1f1;
+}
+.section-wrap{
+  margin-bottom: 40px;
+  .section{
+    padding: 40px 40px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+  }
+}
+
+.section-title{
+  margin: 10px 0;
+  font-size: 20px;
+  color: #2c2c2c;
+  font-weight: bold;
+}
+
+.inline-wrap{
+  display: flex;
+}
+
+.vertical-input-group{
+  display: flex;
+  margin-bottom: 20px;
+  .input-wrap{
+    display: flex;
+    .input, .select-btn{
+      flex: 1;
+    }
+  }
+  .text{
+    flex: 1;
+  }
+}
+
+.label{
+  display: flex;
+  position: relative;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.label-text{
+  color: #2c2c2c;
+  font-weight: bold;
+}
+
+.validate-msg{
+  margin-left: 10px;
+  color: #fb5061;
+}
+
+.input{
+  padding: 16px 24px;
+  border: 1px solid #d3d3d3;
+  &:disabled{
+    border: 1px solid #ccc;
+    background-color: #eee;
+    color: #666;
+  }
+}
+
+
+.vertical-input-group{
+  flex-direction: column;
+  .label{
+    text-align: left;
+  }
+  .input{
+    padding: 8px 12px;
+  }
+  .validate-msg{
+    flex: 1;
+  }
+}
+
+.searchable-selector{
+  width: 400px;
+}
+
+.multi-selector{
+  width: 830px;
+}
+
+
+.campaign-name-inputer{
+  .input-wrap{
+    width: 400px;
+  }
+}
+
+.submit-btn{
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #24acff;
+  border: 1px solid #1f9fed;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  &:hover{
+    background-color: #1f9fed;
+  }
+  &.disabled{
+    opacity: 0.4;
+  }
+}

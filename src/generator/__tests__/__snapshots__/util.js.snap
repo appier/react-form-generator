@@ -1,0 +1,13 @@
+exports[`codeSnippet Generator bindCSSModule 1`] = `"<div className={cx(\'vertical-input-group __CLASS_NAME__\')}>"`;
+
+exports[`codeSnippet Generator bindCSSModule 2`] = `"<div className={cx(\'input-wrap\')}>"`;
+
+exports[`codeSnippet Generator bindCSSModule 3`] = `"className={cx(\'input\')}"`;
+
+exports[`codeSnippet Generator camcelCaseToTemplateStr 1`] = `"__CLASS_NAME__"`;
+
+exports[`codeSnippet Generator camcelCaseToTemplateStr 2`] = `"__LABEL__"`;
+
+exports[`codeSnippet Generator camcelCaseToTemplateStr 3`] = `"__PLACEHOLDER__"`;
+
+exports[`codeSnippet Generator camcelCaseToTemplateStr 4`] = `"__COMPONENT_NAME__"`;
